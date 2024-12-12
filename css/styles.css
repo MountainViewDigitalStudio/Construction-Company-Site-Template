@@ -61,15 +61,22 @@ html {
     justify-content: center;
     font-size: 1.2em;
 }
-#sec-0 .top p:first-of-type::before{
-    content: "\f3cd";
+
+/* Phone icon */
+#sec-0 .top p.phone::before {
+    content: "\f095";
 }
-#sec-0 .top p:nth-of-type(2)::before{
+
+/* Email icon */
+#sec-0 .top p.email::before {
     content: "\f0e0";
 }
-#sec-0 .top p:last-of-type::before{
+
+/* Clock icon */
+#sec-0 .top p.hours::before {
     content: "\f017";
 }
+
 #sec-0 .top .social {
     display: flex;
     width: 45%;
